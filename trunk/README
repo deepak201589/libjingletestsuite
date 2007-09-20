@@ -1,0 +1,24 @@
+1. Test Suite Description
+The Test Suite was developed to collect Libjingle file transfer protocol data, verify correctness, and show a performance comparison between PseudoTCP and JQTCP under various network conditions.
+
+2. Setup
+
+Hardware:
+Machine #1, a router - requires two network interfaces and NIST net. For more information on NIST net see, <http://www-x.antd.nist.gov/nistnet/>. IP Table configuration scripts are included with the source code.
+Machine #2, a sender - requires one network interface and Visual Studio 2005.
+Machine #3, a receiver - requires one network interface and Visual Studio 2005.
+
+Configuration Files:
+'Control' - This directory stores the results, scenarios, schedules, and test files for the sender and receiver.
+
+(The TestFile location on the sender side does is required to be in the same directory as the binary)
+
+Third party components:
+- QuickHash must be added, see <http://www.slavasoft.com/quickhash/index.htm>.
+
+- An MDD compiled version of the libjingle library is required to be added under 'Common', see <http://code.google.com/apis/talk/libjingle/index.html>.
+
+- mysqlclient
+
+3. Further Information
+Visit <http://dogbert.mse.cs.cmu.edu/MSE2007/Projects/Google/engineering.html> for more information.

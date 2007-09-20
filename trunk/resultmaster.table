@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS `chopchop`.`resultmaster`;
+CREATE TABLE `chopchop`.`resultmaster` (
+  `RunID` int(11) NOT NULL auto_increment,
+  `ScheduleID` int(11) default NULL,
+  `ScenarioID` int(11) default NULL,
+  `Protocol` varchar(10) default NULL,
+  `Bandwidth` double default NULL,
+  `Delay` double default NULL,
+  `Loss` double default NULL,
+  `Duplicates` double default NULL,
+  `FileName` varchar(255) default NULL,
+  `StartTime` timestamp NOT NULL default '0000-00-00 00:00:00',
+  `EndTime` timestamp NOT NULL default '0000-00-00 00:00:00',
+  `TimeTaken` bigint(20) default NULL,
+  `FileSize` bigint(20) default NULL,
+  `BytesRetransmitted` bigint(20) default NULL,
+  `TotalBytesTransferred` bigint(20) default NULL,
+  `SenderHash` varchar(80) default NULL,
+  `ReceiverHash` varchar(80) default NULL,
+  PRIMARY KEY  (`RunID`)
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;

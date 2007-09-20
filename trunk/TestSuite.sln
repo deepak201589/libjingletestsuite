@@ -1,0 +1,152 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SenderAgent", "SenderAgent\SenderAgent.vcproj", "{4864CC7B-5E8E-4C0F-9F29-0E7839D547E6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{726ED634-9215-42D5-BB42-62310B3CC989} = {726ED634-9215-42D5-BB42-62310B3CC989}
+		{259A1990-DD85-409E-87FB-D9B0FD62ED69} = {259A1990-DD85-409E-87FB-D9B0FD62ED69}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReceiverAgent", "ReceiverAgent\ReceiverAgent.vcproj", "{E9697C7A-F7F8-4F8A-AA2B-2A0BE2BFCF1A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{259A1990-DD85-409E-87FB-D9B0FD62ED69} = {259A1990-DD85-409E-87FB-D9B0FD62ED69}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcproj", "{259A1990-DD85-409E-87FB-D9B0FD62ED69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Control", "Control", "{2F62DFB7-BF97-4AF1-A0A5-0326FE426175}"
+	ProjectSection(SolutionItems) = preProject
+		Control\config.dat = Control\config.dat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schedules", "Schedules", "{0BCD7C4B-AD9A-46A6-A84C-A4AAB62B08DF}"
+	ProjectSection(SolutionItems) = preProject
+		Control\Schedules\1.schedule = Control\Schedules\1.schedule
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scenarios", "Scenarios", "{3AA35E82-DB2F-476B-801D-A12178E33116}"
+	ProjectSection(SolutionItems) = preProject
+		Control\Scenarios\1.scenario = Control\Scenarios\1.scenario
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest++.vsnet2005", "UnitTest++\UnitTest++.vsnet2005.vcproj", "{64A4FEFE-0461-4E95-8CC1-91EF5F57DBC6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestHelper", "TestHelper\TestHelper.vcproj", "{726ED634-9215-42D5-BB42-62310B3CC989}"
+	ProjectSection(ProjectDependencies) = postProject
+		{259A1990-DD85-409E-87FB-D9B0FD62ED69} = {259A1990-DD85-409E-87FB-D9B0FD62ED69}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainGUI", "MainGUI\MainGUI.vcproj", "{04C6F132-792A-4F63-A373-E434996D0435}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{2E674151-3255-4B36-95E1-D22EE6AFA636}"
+	ProjectSection(SolutionItems) = preProject
+		lib\ImageLibs\cximage.lib = lib\ImageLibs\cximage.lib
+		lib\ImageLibs\Jpeg.lib = lib\ImageLibs\Jpeg.lib
+		lib\libmysql.lib = lib\libmysql.lib
+		lib\mysqlclient.lib = lib\mysqlclient.lib
+		lib\mysys-nt.lib = lib\mysys-nt.lib
+		lib\ImageLibs\png.lib = lib\ImageLibs\png.lib
+		lib\regex.lib = lib\regex.lib
+		lib\strings.lib = lib\strings.lib
+		lib\ImageLibs\Tiff.lib = lib\ImageLibs\Tiff.lib
+		lib\zlib.lib = lib\zlib.lib
+		lib\ImageLibs\zlib.lib = lib\ImageLibs\zlib.lib
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{6BA8BAF6-7100-4D2C-A624-F5C082EFB47D}"
+	ProjectSection(SolutionItems) = preProject
+		include\config-netware.h = include\config-netware.h
+		include\config-win.h = include\config-win.h
+		include\errmsg.h = include\errmsg.h
+		include\libmysql.def = include\libmysql.def
+		include\m_ctype.h = include\m_ctype.h
+		include\m_string.h = include\m_string.h
+		include\my_alloc.h = include\my_alloc.h
+		include\my_dbug.h = include\my_dbug.h
+		include\my_getopt.h = include\my_getopt.h
+		include\my_global.h = include\my_global.h
+		include\my_list.h = include\my_list.h
+		include\my_pthread.h = include\my_pthread.h
+		include\my_sys.h = include\my_sys.h
+		include\mysql.h = include\mysql.h
+		include\mysql_com.h = include\mysql_com.h
+		include\mysql_embed.h = include\mysql_embed.h
+		include\mysql_time.h = include\mysql_time.h
+		include\mysql_version.h = include\mysql_version.h
+		include\mysqld_ername.h = include\mysqld_ername.h
+		include\mysqld_error.h = include\mysqld_error.h
+		include\raid.h = include\raid.h
+		include\typelib.h = include\typelib.h
+		include\cxImage\xfile.h = include\cxImage\xfile.h
+		include\cxImage\ximabmp.h = include\cxImage\ximabmp.h
+		include\cxImage\ximacfg.h = include\cxImage\ximacfg.h
+		include\cxImage\ximadef.h = include\cxImage\ximadef.h
+		include\cxImage\ximage.h = include\cxImage\ximage.h
+		include\cxImage\ximagif.h = include\cxImage\ximagif.h
+		include\cxImage\ximaico.h = include\cxImage\ximaico.h
+		include\cxImage\ximaiter.h = include\cxImage\ximaiter.h
+		include\cxImage\ximaj2k.h = include\cxImage\ximaj2k.h
+		include\cxImage\ximajas.h = include\cxImage\ximajas.h
+		include\cxImage\ximajbg.h = include\cxImage\ximajbg.h
+		include\cxImage\ximajpg.h = include\cxImage\ximajpg.h
+		include\cxImage\ximamng.h = include\cxImage\ximamng.h
+		include\cxImage\ximapcx.h = include\cxImage\ximapcx.h
+		include\cxImage\ximapng.h = include\cxImage\ximapng.h
+		include\cxImage\ximatga.h = include\cxImage\ximatga.h
+		include\cxImage\ximath.h = include\cxImage\ximath.h
+		include\cxImage\ximatif.h = include\cxImage\ximatif.h
+		include\cxImage\ximawbmp.h = include\cxImage\ximawbmp.h
+		include\cxImage\ximawmf.h = include\cxImage\ximawmf.h
+		include\cxImage\xiofile.h = include\cxImage\xiofile.h
+		include\cxImage\xmemfile.h = include\cxImage\xmemfile.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReportGenerator", "ReportGenerator\ReportGenerator.vcproj", "{EADBEB00-6A01-4285-A565-03BEBD5EC985}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4864CC7B-5E8E-4C0F-9F29-0E7839D547E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4864CC7B-5E8E-4C0F-9F29-0E7839D547E6}.Debug|Win32.Build.0 = Debug|Win32
+		{4864CC7B-5E8E-4C0F-9F29-0E7839D547E6}.Release|Win32.ActiveCfg = Release|Win32
+		{4864CC7B-5E8E-4C0F-9F29-0E7839D547E6}.Release|Win32.Build.0 = Release|Win32
+		{E9697C7A-F7F8-4F8A-AA2B-2A0BE2BFCF1A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9697C7A-F7F8-4F8A-AA2B-2A0BE2BFCF1A}.Debug|Win32.Build.0 = Debug|Win32
+		{E9697C7A-F7F8-4F8A-AA2B-2A0BE2BFCF1A}.Release|Win32.ActiveCfg = Release|Win32
+		{E9697C7A-F7F8-4F8A-AA2B-2A0BE2BFCF1A}.Release|Win32.Build.0 = Release|Win32
+		{259A1990-DD85-409E-87FB-D9B0FD62ED69}.Debug|Win32.ActiveCfg = Debug|Win32
+		{259A1990-DD85-409E-87FB-D9B0FD62ED69}.Debug|Win32.Build.0 = Debug|Win32
+		{259A1990-DD85-409E-87FB-D9B0FD62ED69}.Release|Win32.ActiveCfg = Release|Win32
+		{259A1990-DD85-409E-87FB-D9B0FD62ED69}.Release|Win32.Build.0 = Release|Win32
+		{64A4FEFE-0461-4E95-8CC1-91EF5F57DBC6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64A4FEFE-0461-4E95-8CC1-91EF5F57DBC6}.Debug|Win32.Build.0 = Debug|Win32
+		{64A4FEFE-0461-4E95-8CC1-91EF5F57DBC6}.Release|Win32.ActiveCfg = Release|Win32
+		{64A4FEFE-0461-4E95-8CC1-91EF5F57DBC6}.Release|Win32.Build.0 = Release|Win32
+		{82ACF2EF-3363-4B06-977C-45BADD64DCA2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82ACF2EF-3363-4B06-977C-45BADD64DCA2}.Debug|Win32.Build.0 = Debug|Win32
+		{82ACF2EF-3363-4B06-977C-45BADD64DCA2}.Release|Win32.ActiveCfg = Release|Win32
+		{82ACF2EF-3363-4B06-977C-45BADD64DCA2}.Release|Win32.Build.0 = Release|Win32
+		{726ED634-9215-42D5-BB42-62310B3CC989}.Debug|Win32.ActiveCfg = Debug|Win32
+		{726ED634-9215-42D5-BB42-62310B3CC989}.Debug|Win32.Build.0 = Debug|Win32
+		{726ED634-9215-42D5-BB42-62310B3CC989}.Release|Win32.ActiveCfg = Release|Win32
+		{726ED634-9215-42D5-BB42-62310B3CC989}.Release|Win32.Build.0 = Release|Win32
+		{04C6F132-792A-4F63-A373-E434996D0435}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04C6F132-792A-4F63-A373-E434996D0435}.Debug|Win32.Build.0 = Debug|Win32
+		{04C6F132-792A-4F63-A373-E434996D0435}.Release|Win32.ActiveCfg = Release|Win32
+		{04C6F132-792A-4F63-A373-E434996D0435}.Release|Win32.Build.0 = Release|Win32
+		{EADBEB00-6A01-4285-A565-03BEBD5EC985}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EADBEB00-6A01-4285-A565-03BEBD5EC985}.Debug|Win32.Build.0 = Debug|Win32
+		{EADBEB00-6A01-4285-A565-03BEBD5EC985}.Release|Win32.ActiveCfg = Release|Win32
+		{EADBEB00-6A01-4285-A565-03BEBD5EC985}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BCD7C4B-AD9A-46A6-A84C-A4AAB62B08DF} = {2F62DFB7-BF97-4AF1-A0A5-0326FE426175}
+		{3AA35E82-DB2F-476B-801D-A12178E33116} = {2F62DFB7-BF97-4AF1-A0A5-0326FE426175}
+	EndGlobalSection
+EndGlobal

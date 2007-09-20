@@ -1,0 +1,28 @@
+[NISTNet info]
+NW_PLINK_PATH=plink
+NW_SERVER_IP=128.2.188.161
+NW_LOGINID=root
+NW_PASSWORD=g00913
+NW_REMOTEPATH=/root/nistnet-3.0a/cli/cnistnet
+NW_SENDER_IP=192.168.1.98
+NW_RECEIVER_IP=192.168.2.99
+
+[Data File paths]
+DIR_SCHEDULES=..\\Control\\Schedules\\
+DIR_SCENARIOS=..\\Control\\Scenarios\\
+DIR_TXFILELOC=..\\Control\\TestFiles\\
+DIR_RXFILELOC=..\\Results\\Received\\
+
+[Database info]
+DB_NAME=chopchop
+DB_USER=root
+DB_PASS=password
+DB_HOST=192.168.1.98
+DB_PORT=3306
+
+[Receiver Info]
+RX_USERNAME=choprx@gmail.com
+RX_PASSWORD=zaqxsw
+
+[GNUPlot info]
+PW_WPLOT_PATH=wgnuplot

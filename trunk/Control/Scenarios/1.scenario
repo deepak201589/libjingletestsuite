@@ -1,0 +1,16 @@
+ScenarioId=1
+ScenarioName=PseudoTCP_Bandwidth
+SourceFilePath=File_512.bin
+SenderLoginID=choptx@gmail.com
+SenderPassword=g00913
+ReceivedFilePath=..\\Results\\Received\\PseudoTCP\\B16D40
+ReceiverLoginID=choprx@gmail.com
+Description=PseudoTCP: Constant delay and variable bandwidth
+Protocol=PseudoTCP
+
+[Network Parameters]
+UseNISTnet=YES
+PacketDelay=40
+PacketLoss=0
+PacketDuplication=0
+Bandwidth=16000
