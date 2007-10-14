@@ -2,18 +2,18 @@
 #labels Featured
 
 = Hardware Setup =
-- Machine #1, a router - requires two network interfaces and NIST net. For more information on NIST net see, <http://www-x.antd.nist.gov/nistnet/>. IP Table configuration scripts are included with the source code.
+  * Machine #1, a router - requires two network interfaces and NIST net. For more information on NIST net see, <http://www-x.antd.nist.gov/nistnet/>. IP Table configuration scripts are included with the source code.
 
-- Machine #2, a sender - requires one network interface and Visual Studio 2005.
+  * Machine #2, a sender - requires one network interface and Visual Studio 2005.
 
-- Machine #3, a receiver - requires one network interface and Visual Studio 2005.
+  * Machine #3, a receiver - requires one network interface and Visual Studio 2005.
 
 = Configuration Files =
-- 'Control' - This directory stores the results, scenarios, schedules, and test files for the sender and receiver.
+_Control_ - This directory stores the results, scenarios, schedules, and test files for the sender and receiver.
 
 = Third party components =
-- QuickHash must be added, see <http://www.slavasoft.com/quickhash/index.htm>.
+  * QuickHash must be added, see <http://www.slavasoft.com/quickhash/index.htm>.
 
-- An MDD compiled version of the libjingle library is required to be added under 'Common', see <http://code.google.com/apis/talk/libjingle/index.html>.
+  * An MDD compiled version of the libjingle library is required to be added under 'Common', see <http://code.google.com/apis/talk/libjingle/index.html>.
 
-- mysqlclient
+  * mysqlclient
