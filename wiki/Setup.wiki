@@ -1,4 +1,5 @@
-#summary One-sentence summary of this page.
+#summary A description on how to setup the hardware required for the test suite.
+#labels Featured
 
 = Hardware Setup =
 Machine #1, a router - requires two network interfaces and NIST net. For more information on NIST net see, <http://www-x.antd.nist.gov/nistnet/>. IP Table configuration scripts are included with the source code.
