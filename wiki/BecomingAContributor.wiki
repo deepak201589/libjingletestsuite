@@ -1,4 +1,4 @@
-#summary A description on how to contribute to this project.
+#summary Steps needed to contribute and submit patches.
 #labels Featured
 
 = Introduction =
