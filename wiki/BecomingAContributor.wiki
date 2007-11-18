@@ -1,4 +1,0 @@
-#summary Steps needed to contribute and submit patches.
-#labels Featured
-
-= Introduction =
