@@ -1,4 +1,0 @@
-#summary A description of test suite design.
-#labels Featured
-
-= Introduction =
